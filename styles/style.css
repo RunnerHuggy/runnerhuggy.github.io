@@ -1,8 +1,7 @@
 .menus
 {
-    display: inline-flex;
-    margin-right: 200px;
-    font-size: 45px;
+    justify-items: center;
+    text-decoration: none;
 }
 
 body{
@@ -37,6 +36,72 @@ a:hover{
     color: bisque;
 }
 
-.projetScolaire{
-    /**/
+p{
+    font-size: 18px;
+    text-align: center;
+    font-family: "Consolas", "Courier", "Courier New", monospace;
+    color: cyan;
+}
+nav{
+    h1 {
+        font-size: 30px;
+        text-align: center;
+        font-family: "Consolas", "Courier", "Courier New", monospace;
+        text-decoration: underline;
+        color: bisque;
+    }
+}
+.interets{
+    h2 {
+        font-size: 30px;
+        text-align: center;
+        font-family: "Consolas", "Courier", "Courier New", monospace;
+        text-decoration: underline;
+        color: bisque;
+    }
+
+    ul {
+        font-size: 18px;
+        text-align: center;
+        font-family: "Consolas", "Courier", "Courier New", monospace;
+        display: inline-flex;
+        flex-direction: column;
+    }
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+    padding: 5px;
+}
+
+.informations{
+    h1{
+        font-size: 30px;
+        text-align: center;
+        font-family: "Consolas", "Courier", "Courier New", monospace;
+        text-decoration: underline;
+        color: bisque;
+    }
+    h4{
+        font-size: 25px;
+        text-align: center;
+        font-family: "Consolas", "Courier", "Courier New", monospace;
+        text-decoration: underline;
+        color: bisque;
+    }
+    ul{
+        font-size: 18px;
+        font-family: "Consolas", "Courier", "Courier New", monospace;
+        li{
+            align-items: center;
+            justify-content: center;
+            color: cyan;
+        }
+        
+    }
 }
