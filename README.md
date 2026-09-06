@@ -1,3 +1,5 @@
 # Portfolio
 
-## WIP - Electric Bogaloo
+## WIP
+
+This is my Portfolio in french.
